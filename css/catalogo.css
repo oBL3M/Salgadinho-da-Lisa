@@ -1,0 +1,205 @@
+body{
+  
+    width: 100%;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.2rem;
+}
+
+.bgheader{
+    width: 100%;
+    max-height: 400px;
+    background:#f8c9a3;
+  }
+  .logoheader{
+    width: 250px;
+    height: 250px;
+    margin: 20px 0 -80px 0;
+  }
+  .bgheader nav ul{
+    margin: 30px 0 0px;
+    padding: 20px 0 0;
+    text-align: center;
+  }
+  .bgheader nav ul li{
+    margin: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    padding: 30px 0 0;
+  }
+  .bgheader nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 0 auto 20px auto;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: .1s;
+  }
+  .bgheader nav ul li a:hover{
+    transition: .1s;
+    -webkit-text-stroke: 1px #d69d70;
+    color: #dbdbdb;
+}
+
+.catalogo{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+  
+  .catalogo li{
+    background: white;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 15px 1%;
+    padding: 100px 20px;
+    box-sizing: border-box;
+    border: 2px solid #f8c9a3;
+    border-radius: 12px;
+    font-weight: bold;
+  }
+  
+  .catalogo li:hover{
+    color: orange;
+    border-color: orange;
+    background:rgb(255, 255, 255);
+    -webkit-text-stroke: .5px #653914;
+    font-size: 28px;
+    font-weight: bolder;
+  }
+  
+  .catalogo li:active{
+    border-color: orange;
+    visibility: visible;
+  }
+  
+  .catalogo li:hover h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+  }
+  .catalogo-descricao{
+    font-size: 18px;
+    font-weight: bold;
+  } 
+  
+  .catalogo-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .contato{ 
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .abc{ 
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .contatos{
+    color: orange;
+  }
+
+  .baixo img{
+
+    display: block;
+
+    margin: auto;
+
+  }
+
+Pressione Shift + Tab para acessar o histórico do bate-papo.
+
+footer{
+    clear: both;
+  }
+  .bgfooter{
+    width: 100%;
+    max-height: 300px;
+    background:#fcc79d;
+  }
+  .socialmidia{
+    border-top: 1px solid #fff;
+    margin: 30px 0 0px;
+    padding: 20px 0 0;
+    text-align: center;
+  }
+  .socialmidia li{
+    margin: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    padding: 30px 0 0;
+  }
+  .socialmidia li a{
+    text-decoration: none;
+  }
+  .socialmidia li a p{
+    color: #fff;
+  }
+  .socialmidia li a img{
+    width: 40px; 
+    transition: .2s;
+  
+  }
+  .socialmidia li a:hover img{
+    transform: scale(1.2) translateY(-10px);
+  }
+
+  @media screen and (max-width: 1024px){   
+  .contato .contatos{
+      width: auto;
+    }
+  
+    h1{
+      text-align: center;
+    }
+  
+    nav{
+      position: static;
+      text-align: center;
+    }
+
+   }
+
+  @media screen and (max-width: 768px){
+    .catalogo{
+      width: 100%;
+      text-align: center;
+    }
+
+    .catalogo li{
+      width: 90%;
+      margin: auto;
+      display: block;
+      margin-top: 15px;
+    }
+
+    .baixo img{
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 585px){
+    .bgheader nav ul li a{
+      font-size: 1.2rem;
+      }
+    .logoheader{
+      width: 100px;
+      height: 100px;
+    }
+    .socialmidia li a img{
+      width: 25px; 
+    }
+    .socialmidia li a {
+      font-size: 18px;
+    }
+  }
+
+
+
